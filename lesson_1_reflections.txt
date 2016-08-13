@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It focused on areas where the file was different, saving me time in 
+    locating the error by limiting the amount of code I had to review.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If I make a mistake or if I get stuck and my code no longer works, I can
+    revert to an earlier code that work without having to re-write everything.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you control when to make the commits and can ensure the commits represent
+    logically separate points in your code
+    Cons: There's a risk of losing hours of meaningful work on a feature if an interruption
+    in the coding/thinking process results in an accidental loss of the code
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is a version control system primarily designed for programming. Since writing
+    software code will often require several files to interact with one another at
+    the same time (e.g. html / css/ js files, or OOP involving classes), it makes
+    sense for Git to allow saving multiple files in one commit. Others, like Google Docs,
+    are designed for self-contained files (e.g. Word, Excel, or PowerPoint files) and 
+    thus those files need to be treated separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log enables you to see at once all the commits that have been performed on
+    a file whereas git diff allows you to specifically find the changes / differences
+    between two files
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    FYou can always go back to change it since you can locate the commit at which point
+    the bug was introduced
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Write awesome code for the next big thing
