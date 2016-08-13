@@ -38,5 +38,10 @@ the diagram the way we do?
 Merging two branches allows you to combine all changes into one master so
 the changes are no longer running in parallel.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+The automatic merging is helpful when there are likely to be no conflicts,
+especially if the branches and the master were done by the same user. In the
+event of a conflict, a manual merge is better as it enables the user to
+examine and address the conflicts.
