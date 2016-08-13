@@ -21,6 +21,12 @@ way you get to see what's in the staging area that you might have forgotten.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+A good example will be when you want to experiment with code that you're not yet 
+sure you want to see in the master branch. You can continue making separate changes
+to the branch and the master file until such a time when you want to merge the branch
+changes into the master. That way, you can track the changes made to the master and
+the branch separately via commits.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
