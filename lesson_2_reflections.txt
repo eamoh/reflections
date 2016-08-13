@@ -35,5 +35,8 @@ desired changes aren't lost.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches allows you to combine all changes into one master so
+the changes are no longer running in parallel.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
